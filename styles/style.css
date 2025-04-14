@@ -1,0 +1,37 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #222;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
+  }
+  
+
+  .contenedor-imagen {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* Ajusta la altura según lo necesites */
+  }
