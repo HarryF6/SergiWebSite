@@ -35,3 +35,35 @@ body {
     align-items: center;     /* Centrado vertical */
     height: 100vh;           /* Ajusta la altura según lo necesites */
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em 2em;
+    flex-wrap: wrap;
+  }
+  
+  .footer div {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer p {
+    margin: 0.3em 0;
+  }
