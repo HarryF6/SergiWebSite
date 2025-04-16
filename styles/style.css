@@ -1,10 +1,11 @@
 /* style.css */
 body {
+  text-align: justify;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
-  
+ 
   header {
     background-color: #222;
     color: white;
@@ -22,7 +23,13 @@ body {
     padding: 2em;
   }
   
+  ul li {
+    margin-bottom: 10px; /* espacio entre cada punto */
+  }
 
+  header img {
+    height: 60px; /* puedes ajustar el tamaño */
+  }
   
 
   .contenedor-imagen {

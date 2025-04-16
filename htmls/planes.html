@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sergi Plan's</title>
+    <title>Gonzalo tryouts.</title>
     <link rel="stylesheet" href="../styles/style.css">
     </head>
 <body>
     <header>
-        <h1>Página web de Sergi</h1>
+        <h1>Página web de Gonzalo</h1>
         <nav>
           <a href="../index.html">Principal</a>
           <a href="planes.html">Planes</a>
@@ -19,27 +19,70 @@
 
 
 
-  <section id="planes">
-    <h1>Mis planes</h1>
-    <p>Aquí puedes mostrar tus trabajos, enlaces, imágenes o lo que quieras.</p>
+  <section id="trabajos">
+    <h1>Mis trabajos</h1>
+    <p>Aquí están mis trabajos finde grado y máster.</p>
     <ul>
-      <li>Plan 1</li>
-      <li>Plan 2</li>
-      <li>Plan 3</li>
+      <li>TFG: <a href="http://rua.ua.es/dspace/handle/10045/115948">Segmentación de objetos 3D para tareas de interacción con robots. </a> </li>
+      <li>TFM: <a href="https://drive.google.com/file/d/1pHS67J8DL6EQv5swCG9qbdIBR0RCkAcB/view?usp=share_link">Myoelectric control using the Temi robot. </a></li>
     </ul>
   </section>
+  <section id="publicaciones">
+    <h1>Mis publicaciones en Linkedin</h1>
+    <p>Aquí puedes ver mis trabajos, enlaces y vídeos que he hecho durante mi periodo educativo y tras él.</p>
+    <ul>
+      <li>El vídeo es el resultado de la segunda práctica de la asignatura de Sistemas de Percepción del Máster en Automática y Robótica, la cual consiste en analizar
+      y seleccionar el mejor detector de objetos 3D que haga uso de características locales. El problema básico a resolver es simple, tengo un conjunto de vistas
+      de objetos ya identificados y una vista de una escena donde pueden aparecer uno o más de estos objetos.
 
+      En el vídeo se muestran dos sistemas de referencia, uno fijo y otro que se va moviendo. El que se mueve es el del objeto detectado,
+      en este caso es la mano del docente de la asignatura que aparece en el vídeo.
+
+      Para el desarrollo de la práctica se han hecho uso del lenguaje de programación de C++, la librería Point Cloud Library para el tratamiento de nubes de puntos y el registro de pares de nubes. También, se hace uso del framework de ROS y de la librería tf para crear las coordenadas y orientación del objeto detectado en la escena y publicarlo en un topic. 
+      Todo este proceso se realiza en un nodo de ROS y luego se publica en diferentes topics los resultados obtenidos para usar Rviz para visualizarlos. Video: <a href="https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_robaejtica-ros-c-activity-6929749054012723200-CZCA?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk
+      ">Resultado.</a> </li>
+      <li>Este vídeo es el resultado de la primera práctica de la asignatura de Sistemas de Percepción del Máster en Automática y Robótica, la cual consiste en hacer un “bot” que sea capaz de jugar a un juego relativamente simple usando las herramientas de visión vistas en la asignatura. Habrá que hacer un uso intensivo de ROS para las diferentes partes de captura, procesamiento y ejecución de las acciones. 
+
+      El juego elegido para es el 2048. El juego se basa en ir juntando parejas e ir acumulando el máximo de números posibles y se lo considera como un rompecabezas de deslizamiento.
+
+      Para el desarrollo de la práctica se ha hecho uso del lenguaje de Python y librerías como OpenCV para hacer la extracción de características y detectores, recortes y procesos necesarios para umbralizar las imágenes, etc. También de la librería autopy para hacer recortes de pantalla y eventos de ratón para que el proceso del juego fuera automático, todo esto en combinación con las herramientas que proporciona el framework de ROS.
+      Video: <a href="https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_python-ros-opencv-activity-6896730075749044224-zlcQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk">Resultado. </a></li>
+
+      <li>En este video muestro el resultado del proyecto práctico planteado para la asignatura de Robótica de Servicios, el cual lo realicé con Maria Poveda, Óscar Albujer y Fernando Larrosa Marín.
+
+      La finalidad del diseño de esta aplicación, es la navegación autónoma de los robots llamados Turtlebots como herramienta 
+      para el contacto con los pacientes en las plantas de los hospitales a la hora de proporcionar alimentos como agua, o 
+      las medicinas correspondientes, o recoger algunos residuos. La creación de un robot celador para hospitales se ha desarrollado
+      mediante la simulación de un Turtlebot mediante el entorno de ROS llamado Gazebo. También, se ha usado Python para implementar 
+      los programas necesarios y usar Tkinter, que está incluida por defecto en la librería estándar de Python, para desarrollar la interfaz para poder 
+      comunicarse con el robot. Video: <a href="https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_python-robots-video-activity-6831508197233197056--to3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk">Resultado. </a></li>
+
+
+      <li>En este nuevo video, muestro la práctica final de la asignatura Programación de Robots realizada con mi compañero Dario Peñin.
+      El objetivo de esta práctica es aprender a programar una célula de paletizado completa mediante la aplicación RobotStudio y mediante el lenguaje RAPID. Para ello, se implementarán lógicas de control de flujo, mientras que por otro lado, se realizará una serie animaciones dinámicas basadas en simuladores. Video: <a href=" https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_robots-activity-6825705631211638785-UJsI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk">Resultado. </a></li>
+      <li>Este video es el proyecto práctico de la asignatura de Manipuladores, donde hablo y muestro un robot manipulador modelado con ficheros URDF y ROS. Haciendo uso de Rviz y Gazebo se puede visualizar y simular. Para el control del robot se ejecuta un movimiento "pick&place" realizado en un programa de Python con ayuda del asistente de MoveIt de ROS. 
+
+        Para realizar esta práctica no se ha escogido un robot ya existente, sino que se ha decidido crearlo desde cero y dotarle de la forma que es más conveniente para la realización de la tarea propuesta, en un principio se planteó hacer un brazo robótico como el modelo propuesto durante la realización de las sesiones de prácticas, pero durante la realización de estas surgió una idea y se planteó de hacer un brazo robótico manipulador que está incluido en una cinta para poder tener más rango de movimiento, como los robots que hay en varias farmacias para poder coger los fármacos y dárselos a los farmacéuticos o como los que hay en diferentes fábricas, ahorrándoles tiempo y haciendo dicha tarea de manera eficiente y rápida. . Video: <a href="https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_robots-python-ros-activity-6820413188987727872-1Nsx?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk">Resultado. </a></li> 
+      
+        <li>Este video que he publicado es una muestra de una de las prácticas que he realizado durante mi formación en el grado en Ingeniería Robótica, exactamente de la asignatura de Robots Móviles. 
+
+          Esta práctica la he realizado con mis compañeros Óscar Albujer y Dario Peñín donde hacemos uso de ROS, Gazebo, Python y OpenCV. El objetivo es poder simular un museo virtual con la intención de controlar un robot e ir mostrando información de monumentos mediante QR's.. Video: <a href="https://www.linkedin.com/posts/gonzalo-ferrando-alonso-54b77817a_este-video-que-he-publicado-es-una-muestra-activity-6817097110928793600-TBlz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACp45AsB-m2HfFfL57hyDl7M0-CO3dcS5wk">Resultado. </a></li>
+      
+      </ul>
+  </section>
+
+  
   <footer class="footer">
     <div class="footer-left">
-      <h3>SergiWebSite</h3>
+      <h3>Gonzalo's tryouts.</h3>
     </div>
     <div class="footer-center">
       <p>📍El Campello, Alicante</p>
     </div>
     <div class="footer-right">
-      <p><strong>Sergi Planelles</strong></p>
-      <p>📞 +34 XXX XX XX XX</p>
-      <p>📧 sergi.planelles@email.com</p>
+      <p><strong>Gonzalo Ferrando Alonso</strong></p>
+      <p>📞 +34 628 38 07 51</p>
+      <p>📧 gonfa1999@gmail.com</p>
     </div>
   </footer>
 
