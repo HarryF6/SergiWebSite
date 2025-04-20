@@ -1,6 +1,6 @@
 # My first web page
 
-La página web esta en:  https://harryf6.github.io/SergiWebSite/
+La página web esta en:  [https://harryf6.github.io/SergiWebSite/](https://harryf6.github.io/WebSites/)
 
 # que es lo que tene que tener una página web para ser atractiva
 Tener un buen balance entre texto e imágenes
